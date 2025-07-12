@@ -9,9 +9,13 @@ function cetakTabel (n){
 }
 
 exports.main3 = function (number){
-    if(!isValidPositiveNumber(number)) return new Error ('Parameter harus berupa tipe data nomor dan harus positif !');
+    try{
+        if(!isValidPositiveNumber(number)) throw new Error ('Parameter harus berupa tipe data nomor dan harus positif !');
+        cetakTabel(number);
 
-    cetakTabel(number);
+    } catch (err){
+        console.log(err.message)
+    }
 }
 
 // const number = 3;
