@@ -13,8 +13,12 @@ function triangle (n){
 }
 
 exports.main1 = function (number){
-    if(!isValidPositiveNumber(number)) return new Error ('Parameter harus berupa tipe data nomor dan harus positif !');
+    try{
+        if(!isValidPositiveNumber(number)) throw new Error ('Parameter harus berupa tipe data nomor dan harus positif !');
+        triangle(number);
 
-    triangle(number);
+    } catch (err){
+        console.log(err.message)
+    }
 }
 
