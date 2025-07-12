@@ -1,0 +1,19 @@
+7a. Sebuah error karena user tidak pernah di inisialisasi atau dalam kata lain tidak ada variabel user
+    a. Fungsi getUserData   di File app.js Baris 15
+    b. Fungsi processUser   di File app.js Baris 30
+    c. Fungsi main          di File app.js Baris 50
+
+7b. Tipe Data Tidak valid atau tidak seusai karena bernilai null di reading.length
+    a. Fungsi processData   di File data.js   Baris 8
+    b. Fungsi handleRequest di File server.js Baris 20
+    c. Fungsi main          di File app.js    Baris 35
+
+7c. Syntax error karena lupa menambahkan ) di file Script.js Baris 5
+
+7d. Tipe Data Tidak valid atau tidak seusai karena bernilai undifined di setting status
+    a. Fungsi updateOrder   di File order.js   Baris 18
+    b. Fungsi processOrder  di File order.js   Baris 35
+    c. Fungsi checkout      di File cart.js    Baris 50
+
+7e. Pemanggilan fungsi rekursi tak terbatas atau pemanggilan fungsi yang terlalu dalam tanpa henti
+    a. Fungsi recursiveFunction  di File app.js   Baris 10
