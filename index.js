@@ -57,27 +57,31 @@ const task4 = require("./tasks/titusRangga/task4.js");
 const task5 = require("./tasks/titusRangga/task5.js");
 const task6 = require("./tasks/titusRangga/task6.js");
 
-const number = 0;
+function taskTitus (){
+    const number = 10;
 
-task1.main1(number);
-console.log()
+    task1.main1(number);
+    console.log()
 
-let countArray_1 = [1, 2, 3, 4, 5]
-let countArray_2 = [2, 2, 2, 2, 2]
+    let countArray_1 = [1, 2, 3, 4, 5]
+    let countArray_2 = [2, 2, 2, 2, 2]
 
-console.log(task2.operationTimes1(countArray_1))
-console.log(task2.operationTimes1(countArray_2))
-console.log()
+    console.log(task2.operationTimes1(countArray_1))
+    console.log(task2.operationTimes1(countArray_2))
+    console.log()
 
-task3.main2(number);
-console.log()
+    task3.main2(number);
+    console.log()
 
-console.log(task4.operationTimes2(countArray_1))
-console.log(task4.operationTimes2(countArray_2))
-console.log()
+    console.log(task4.operationTimes2(countArray_1))
+    console.log(task4.operationTimes2(countArray_2))
+    console.log()
 
-task5.main3(number);
-console.log()
+    task5.main3(number);
+    console.log()
 
-console.log(task6.buatRentang(1, 5))
-console.log(task6.buatRentang(5, 10))
+    console.log(task6.buatRentang(1, 5))
+    console.log(task6.buatRentang(5, 10))
+}
+
+taskTitus()
